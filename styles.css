@@ -1,0 +1,15 @@
+html {
+    background-color: black;
+    color: white;
+}
+
+.title {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+#test {
+    color: purple;
+}
