@@ -116,7 +116,6 @@ div:has(input:focus) > label {
   border-right: none;
 }
 
-
 form button {
   width: 100%;
   height: 50px;
@@ -148,4 +147,21 @@ a:hover {
     width: min(600px, 100%);
     border-radius: 0;
   }
+}
+
+form div.incorrect label {
+background-color: rgb(250, 81, 81);
+
+  border: solid;
+  border-color: rgb(250, 81, 81);
+  border-right: 0;
+}
+
+form div.incorrect input {
+  border: solid;
+  border-color: rgb(250, 81, 81);
+  border-left: 0;}
+
+#error-message {
+  color: rgb(254, 58, 58);
 }
