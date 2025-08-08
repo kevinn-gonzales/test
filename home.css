@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+
+:root {
+  --accent-color: #7f4829;
+  --accent-color2: #4a4a4a;
+  --base-color: #e3e3e3;
+  --text-color: #000000;
+  --input-color: #d3d3d3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 12pt;
+  font-family: "Questrial", sans-serif;
+}
+
+#navbar {
+  padding: 2rem;
+  background-color: var(--base-color);
+}
+
+#title {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 2rem;
+  color: var(--text-color);
+}

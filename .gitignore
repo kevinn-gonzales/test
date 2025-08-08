@@ -1,0 +1,16 @@
+# Ignore environment variables
+.env
+
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# OS/macOS system files
+.DS_Store
+
+# Optional: VSCode settings
+.vscode/
+
+
